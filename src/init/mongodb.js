@@ -3,7 +3,7 @@
 /**
  * pratice Node.js project
  *
- * @author Zongmin Lei <leizongmin@gmail.com>
+ * @author edward <385125@qq.com>
  */
 
 import mongoose from 'mongoose';
@@ -17,8 +17,9 @@ module.exports = function (done) {
   $.mongodb = conn;
   $.model = {};
 
+  const ObjectId = mongoose.Types.ObjectId;
+  $.utils.ObjectId = ObjectId;
+
   done();
 
 }
-Status API Training Shop Blog About
-

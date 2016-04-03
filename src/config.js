@@ -3,7 +3,7 @@
 /**
  * pratice Node.js project
  *
- * @author Zongmin Lei <leizongmin@gmail.com>
+ * @author edward <385125@qq.com>
  */
 
 module.exports = function (set, get, has) {
@@ -14,6 +14,10 @@ module.exports = function (set, get, has) {
   // session secret
   set('web.session.secret', 'test');
 
-};
-Status API Training Shop Blog About
+  // session redis connection
+  set('web.session.redis', {
+    host: '127.0.0.1',
+    port: 6379,
+  });
 
+};

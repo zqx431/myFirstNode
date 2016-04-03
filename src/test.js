@@ -3,6 +3,7 @@
 /**
  * pratice Node.js project
  *
+ * @author edward <385125@qq.com>
  */
 /*
 $.method('user.add').call({
@@ -21,6 +22,6 @@ $.method('user.get').call({
 /*
 $.method('user.update').call({
   name: 'hello',
-  nickname: '我是老雷',
+  nickname: '我是edward',
 }, console.log);
 */

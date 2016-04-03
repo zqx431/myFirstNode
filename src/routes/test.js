@@ -3,7 +3,7 @@
 /**
  * pratice Node.js project
  *
- * @author Zongmin Lei <leizongmin@gmail.com>
+ * @author edward <385125@qq.com>
  */
 
 module.exports = function (done) {
